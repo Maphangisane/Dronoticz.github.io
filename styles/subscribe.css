@@ -46,3 +46,8 @@
     gap: 10px;
     cursor:pointer;
  }
+ .subscribe-section button : hover {
+
+    background-color: var(--primary-color);
+
+ }
