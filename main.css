@@ -1,0 +1,61 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+/* regular */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* medium */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+/* bold */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* CSS imports */
+/* must import reset.css first */
+@import url("styles/reset.css");
+
+@import url("styles/header.css");
+@import url("styles/hero.css");
+@import url("styles/article.css");
+@import url("styles/about.css");
+@import url("styles/subscribe.css");
+@import url("styles/footer.css");
+
+/* CSS Variables */
+:root {
+  /* colors */
+  --primary-color: #56a9e4;
+  --secondary-color: #000000;
+  --backdrop-color: #F8F8F8;
+
+  /* Typography */
+  
+  /* font sizes */
+  --paragraph:16px;
+  --links:24px;
+  --section-header:32px;
+  --hero-header:112px;
+  
+  /* fonts */
+  --inter-display: 'Inter', sans-serif;
+
+  /* font weight */
+  
+  --regular:400;
+  --medium: 500;
+  --bold: 700;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+ body {
+  background-color: #fff;
+ }
+
+
