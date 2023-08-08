@@ -1,2 +1,5 @@
 # Dronoticz.github.io
-Assignment 2 
+
+# Tshimologong_Assignment_2 
+
+Build a figma website prototype using only HTML and CSS
