@@ -83,5 +83,10 @@ header {
     gap: 10px;
     cursor:pointer;
  }
+ .header-button : hover {
+
+    background-color: var(--primary-color);
+
+ }
 
  
