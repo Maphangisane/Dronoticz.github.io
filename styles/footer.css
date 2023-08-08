@@ -70,3 +70,8 @@ footer{
     gap: 10px;
     cursor:pointer;
 }
+.footer-button : hover {
+
+    background-color: var(--primary-color);
+
+ }
